@@ -7,7 +7,7 @@ for($x=1; $x<=10; $x++)
  }
  else
   {
- echo "$x"."\n";
+ echo "$x";
   }
 }
 ?>
