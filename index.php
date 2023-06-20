@@ -1,13 +1,8 @@
 <?php
-for($x=1; $x<=10; $x++)
+$sum = 0;
+for($x=1; $x<=30; $x++)
 {
- if($x< 10)
- {
- echo "$x-";
- }
- else
-  {
- echo "$x"."\n";
-  }
+$sum +=$x;
 }
+echo "The sum of the numbers 0 to 30 is $sum";
 ?>
